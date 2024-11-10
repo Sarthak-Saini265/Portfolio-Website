@@ -1,0 +1,39 @@
+.navbar {
+    width: 70%;
+}
+
+.navbar_head {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.nav_list {
+    display: flex;
+    justify-content: center;
+}
+
+*.h3 {
+    margin: 40px 0 0;
+}
+
+*.ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+*.li {
+    display: inline-block;
+    margin-left: 4rem;
+}
+
+*.a {
+    text-decoration: none;
+    /* color: #42b983; */
+    color: #5e626e;
+}
+
+*.a:hover {
+    /* color: #fd0038; */
+    color: var(--pinkish-red);
+}
