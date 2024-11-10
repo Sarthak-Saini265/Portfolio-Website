@@ -19,6 +19,7 @@ body {
 
 body {
   font-family: "Poppins",Arial, Helvetica, sans-serif;
+  font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

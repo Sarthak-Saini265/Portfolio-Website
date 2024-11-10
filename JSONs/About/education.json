@@ -1,0 +1,24 @@
+[
+    {
+        "name":"Indian Institute of Technology Madras",
+        "duration":"2023 - Present • 4 Years",
+        "program":"BS Degree in Data Science and Application",
+        "description":"Pursuing a BS in Data Science and Applications from IIT Madras, this program offers an in-depth curriculum in data analysis, machine learning, and full-stack development. It emphasizes hands-on projects, enabling practical experience in tackling real-world data challenges. The program builds a strong foundation in both theoretical and applied data science skills.",
+        "img":"/About/Education/IITM_logo.png"
+    },
+    {
+        "name":"Atma Ram Sanatan Dharma College",
+        "extra":"University of Delhi",
+        "duration":"2024 - Present • 3 Years",
+        "program":"B.Sc. Computer Science (Hons.)",
+        "description":"Pursuing a BSc in Computer Science (Hons.) from Atma Ram Sanatan Dharma College, University of Delhi, this program offers a comprehensive curriculum in computer science, covering programming, algorithms, data structures, and software engineering. It combines theory with practical application, providing hands-on experience in coding and problem-solving.",
+        "img":"/About/Education/ARSD_logo.png"
+    },
+    {
+        "name":"Vikas Bharat Public School",
+        "duration":"2009 - 2023 • 14 Years",
+        "program":"Central Board of Secondary Education",
+        "description":"Studied at Vikas Bharati Public School, where the curriculum emphasized a strong foundation in both academics and extracurriculars, fostering a balanced approach to personal and intellectual growth. The school provided a comprehensive environment for developing key skills in various subjects, preparing students for higher education and beyond.",
+        "img":"/About/Education/VBPS_logo.png"
+    }
+]
