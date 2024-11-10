@@ -1,11 +1,11 @@
 .navbar {
-    width: 70%;
+    width: max-content;
 }
 
 .navbar_head {
     display: flex;
     justify-content: center;
-    margin-top: 1rem;
+    margin-top: 2.5rem;
 }
 
 .nav_list {
@@ -13,27 +13,27 @@
     justify-content: center;
 }
 
-*.h3 {
+.navbar_head h3 {
     margin: 40px 0 0;
 }
 
-*.ul {
+.navbar_head ul {
     list-style-type: none;
     padding: 0;
 }
 
-*.li {
+.navbar_head li {
     display: inline-block;
     margin-left: 4rem;
 }
 
-*.a {
+.navbar_head a {
     text-decoration: none;
     /* color: #42b983; */
     color: #5e626e;
 }
 
-*.a:hover {
+.navbar_head a:hover {
     /* color: #fd0038; */
     color: var(--pinkish-red);
 }

@@ -1,6 +1,3 @@
-import Head from 'next/head'
-import styles from '@/styles/Home.module.css'
-import Navbar from '@/Components/navbar'
 import Image from 'next/image'
 import styler from '../styles/Home.module.css'
 
