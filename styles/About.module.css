@@ -1,6 +1,7 @@
 .wrapper {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .sect_general {
@@ -16,7 +17,7 @@
 }
 
 .ed_divs,
-.skill_divs {
+.skill_divs, .hobbies_divs {
     border-top: 2px solid black;
     width: 75rem;
 }
@@ -140,19 +141,19 @@
     margin-top: 3rem;
 }
 
-#web_app .skill_head,
-#web_app .ico_div {
+/* .skill_divs > :nth-child(2) .skill_head,
+.skill_divs > :nth-child(2) .ico_div {
     background-color: #002366;
 }
 
-#data_vis .skill_head,
-#data_vis .ico_div {
+.skill_divs > :nth-child(3) .skill_head,
+.skill_divs > :nth-child(3) .ico_div {
     background-color: black;
-}
+} */
 
-#vue img {
+/* #vue img {
     filter: grayscale(100%) brightness(3);
-}
+} */
 
 .skill_div {
     display: flex;
@@ -160,19 +161,19 @@
     justify-content: flex-start;
     align-items: center;
     height: max-content;
-    width: 16rem;
+    width: 22rem;
     border-radius: 7px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
     padding: 3rem;
 }
 
-#web_app> :nth-child(2) {
+/* .skill_divs > :nth-child(2)> :nth-child(2) {
     margin-left: -10rem;
 }
 
-#data_vis> :nth-child(2) {
+.skill_divs > :nth-child(3)> :nth-child(2) {
     margin-left: -4rem;
-}
+} */
 
 .skill_head {
     display: flex;
@@ -181,18 +182,21 @@
     border-top-left-radius: inherit;
     border-top-right-radius: inherit;
     background-color: var(--pinkish-red);
-    width: 22.1rem;
+    width: inherit;
     margin-top: -3rem;
     height: 3rem;
     font-size: 18px;
     color: gainsboro;
+    margin-bottom: 1rem;
 }
 
 .ico_div {
     display: flex;
     align-items: center;
-    width: 2rem;
-    min-height: 2rem;
+    width: 3.4rem;
+    min-width: 3.4rem;
+    height: 3.4rem;
+    min-height: 3.4rem;
     margin-bottom: 0.3rem;
     padding: 0.7rem;
     border-radius: 7px;
@@ -210,11 +214,12 @@
     flex-direction: column;
     align-items: flex-start;
     list-style: none;
-    margin-left: -12.3rem;
+    width: 19rem;
+    /* margin-left: -12.3rem; */
     text-align: start;
 }
 
-.skill_div ul *:not(:first-child) {
+.skill_div ul li:not(:first-child) {
     margin-top: 0.5rem;
 }
 
@@ -230,4 +235,32 @@
 
 .skill_div li> :nth-child(2) {
     margin-left: 0.5rem;
+}
+
+
+
+.hobby_div {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 72rem;
+}
+
+.hobbies_divs > :first-child {
+    margin-top: 7rem;
+}
+
+.name_w_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5rem;
+    margin-top: 2.3rem;
+}
+
+.name_w_text h1 {
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.5px;
 }

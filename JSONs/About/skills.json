@@ -1,0 +1,79 @@
+[
+    {
+        "category":"Programming Languages",
+        "skills":[
+            {
+                "name":"Python",
+                "img":"/About/Skills/python.png"
+            },
+            {
+                "name":"Java",
+                "img":"/About/Skills/java.png"
+            },
+            {
+                "name":"JavaScript",
+                "img":"/About/Skills/javascript.png"
+            },
+            {
+                "name":"R",
+                "img":"/About/Skills/r_lang.png"
+            }
+        ]
+    },
+    {
+        "category":"Web and App Development",
+        "color":"#002366",
+        "skills":[
+            {
+                "name":"HTML",
+                "img":"/About/Skills/html.png"
+            },
+            {
+                "name":"CSS",
+                "img":"/About/Skills/css.png"
+            },
+            {
+                "name":"Flask",
+                "img":"/About/Skills/flask.png"
+            },
+            {
+                "name":"Vue JS",
+                "img":"/About/Skills/vue.svg"
+            },
+            {
+                "name":"Android Studio",
+                "img":"/About/Skills/android_studio.png"
+            },
+            {
+                "name":"UI / UX",
+                "img":"/About/Skills/uiux.png"
+            }
+        ]
+    },
+    {
+        "category":"Data and Visualization",
+        "color":"black",
+        "skills":[
+            {
+                "name":"MS Excel",
+                "img":"/About/Skills/excel.png"
+            },
+            {
+                "name":"MySQL",
+                "img":"/About/Skills/mysql.png"
+            },
+            {
+                "name":"Data Preprocessing",
+                "img":"/About/Skills/data_preprocessing.png"
+            },
+            {
+                "name":"Data Structures and Algorithms",
+                "img":"/About/Skills/dsa.png"
+            },
+            {
+                "name":"Tableau",
+                "img":"/About/Skills/tableau.png"
+            }
+        ]
+    }
+]
