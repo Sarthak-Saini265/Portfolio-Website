@@ -1,0 +1,41 @@
+[
+    {
+        "category":"Hobbies",
+        "color":"brown",
+        "items":[
+            {
+                "name":"Fitness",
+                "img":"/About/Additional/fitness.png"
+            },
+            {
+                "name":"Reading",
+                "img":"/About/Additional/reading.png"
+            },
+            {
+                "name":"Traveling",
+                "img":"/About/Additional/travel.png"
+            }
+        ]
+    },
+    {
+        "category":"Personal Details",
+        "color":"black",
+        "items":[
+            {
+                "name":"Male",
+                "img":"/About/Additional/male.png",
+                "title":"Gender"
+            },
+            {
+                "name":"19",
+                "img":"/About/Additional/age.png",
+                "title":"Age"
+            },
+            {
+                "name":"Indian",
+                "img":"/About/Additional/nationality.png",
+                "title":"Nationality"
+            }
+        ]
+    }
+]
