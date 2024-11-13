@@ -38,6 +38,7 @@ const About = () => {
         setExtras(res);
       });
   }, []);
+  
 
   //   useEffect(() => {
   //     fetch("/api/aboutHobbies")

@@ -1,0 +1,17 @@
+[
+    {
+        "name":"Phone No.",
+        "text":8510053046,
+        "img":"/Contact/Main/phone.png"
+    },
+    {
+        "name":"Email",
+        "text":"saini.sarthak0505@gmail.com",
+        "img":"/Contact/Main/email.png"
+    },
+    {
+        "name":"Location",
+        "text":"New Delhi, India",
+        "img":"/Contact/Main/location.png"
+    }
+]

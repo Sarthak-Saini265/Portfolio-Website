@@ -1,0 +1,111 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.contact_sect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 6rem;
+}
+
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6rem;
+    width: 47%;
+}
+
+.heading p {
+    margin-top: 1rem;
+}
+
+.main_contacts {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2.5rem;
+    margin-bottom: 5rem;
+}
+
+.contacts_div h3 {
+    margin-top: 1.4rem;
+}
+
+.contacts_div a {
+    text-decoration: none;
+    color: black;
+    margin-top: 0.2rem;
+    width: 88%;
+    text-align: center;
+    overflow-wrap: break-word;
+}
+
+.contacts_div a:hover {
+    color: var(--font-color);
+}
+
+.contacts_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 13.5rem;
+    width: 15rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.22);
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+}
+
+.icon_holder {
+    margin-top: 2rem;
+}
+
+.gen_ico {
+    width: 2rem;
+    height: auto;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+}
+
+.socials_div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 12rem; */
+}
+
+
+.socials_div > :nth-child(2) {
+    margin-left: 0.35rem;
+}
+
+.social {
+    height: 3rem;
+}
+
+.social:hover {
+    cursor: pointer;
+}
+.social img {
+    height: 100%;
+    width: auto;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+}
+
+
+
+
+
+
+
