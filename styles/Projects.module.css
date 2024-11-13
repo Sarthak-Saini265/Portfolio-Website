@@ -1,0 +1,154 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sect_general {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 6rem;
+}
+
+.section_head {
+    height: 3.45rem;
+}
+
+
+.project_divs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 2px solid black;
+}
+
+.project_div {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 78rem;
+    margin-bottom: 3rem;
+}
+
+.project_divs > :first-child {
+    margin-top: 5rem;
+}
+
+.name_w_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5rem;
+    margin-top: 2.3rem;
+}
+
+.name_w_text h1 {
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.5px; 
+    font-size: 27px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 21.5rem;
+    margin-top: 2.2rem;
+    text-decoration: none;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 10rem;
+    border-radius: 9px;
+    height: 2.7rem;
+    color: white;
+    font-size: 13.5px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.button p {
+    margin-left: 0.45rem;
+}
+
+.btn_w_img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons > :first-child button {
+    background-color: #0A66C2;
+    border: 2px solid #0A66C2;
+}
+
+.buttons > :nth-child(2) button {
+    background-color: black;
+    border: 2px solid black;
+}
+
+.social {
+    height: 1.7rem;
+}
+
+.social img {
+    height: 100%;
+    width: auto;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+}
+
+#linkedin .social {
+    height: 2.25rem;
+}
+
+#linkedin p {
+    margin-left: 0.1rem;
+}
+
+.buttons a {
+    text-decoration: none;
+}
+
+.images_div {
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.arrow_div {
+    display: flex
+;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* margin-top: 2rem; */
+    height: 4rem;
+}
+
+.arrow_div:hover {
+    cursor: pointer;
+    background-color: #ededed;
+}
+
+
+
+
+
+
+
+
+
