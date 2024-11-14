@@ -2,12 +2,18 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import styler from "../styles/Projects.module.css";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
 
 
 
 const Projects = () => {
 
     const [projects, setProjects] = useState([]);
+    const [images, setImages] = useState([]);
 
     useEffect(() => {
         fetch("/api/projectsMain")
@@ -18,6 +24,22 @@ const Projects = () => {
             setProjects(res);
           });
       }, []);
+
+    useEffect(() => {
+      fetch("/api/projectsImages").then((a) => {
+        return a.json()
+      }).then((res) => {
+        setImages(res)
+      })
+    }, [])
+
+      const arrowTransform = (e) => {
+        const arrowImg = e.currentTarget.querySelector("img")
+        const swiper_div = document.querySelector(`.${styler.swiper_div}`);
+        const currentRotation = arrowImg.style.transform === "rotate(180deg)" ? "rotate(0deg)" : "rotate(180deg)";
+        arrowImg.style.transform = currentRotation;
+        swiper_div.style.display === "flex" ? swiper_div.style.display = "none" : swiper_div.style.display = "flex";
+      };
 
     return (
         <>
@@ -63,8 +85,36 @@ const Projects = () => {
                                         </Link>
                                     </div>
                                     <div className={styler.images_div}>
-                                        <div className={styler.arrow_div}>
+                                        <div className={styler.arrow_div} onClick={arrowTransform}>
                                             <Image width={40} height={40} src="/Projects_page/down_arrow.svg" />
+                                        </div>
+                                        <div className={styler.swiper_div}>
+                                          <Swiper
+                                            modules={[Navigation, Pagination, Autoplay]}
+                                            spaceBetween={30}
+                                            slidesPerView={1}
+                                            navigation
+                                            pagination={{ clickable: true }}
+                                            autoplay={{ delay: 5000, disableOnInteraction: false }}
+                                            loop={true}
+                                            effect="fade"
+                                            className={styler.swiper}
+                                          >
+                                            {images.map((image, index) => {
+                                              return (
+                                                <SwiperSlide key={index} className={styler.swiperSlide}>
+                                                  <div className={styler.slideShow}>
+                                                    <Image
+                                                      src={image}
+                                                      className={styler.slide}
+                                                      width={1920}
+                                                      height={1080}
+                                                    />
+                                                  </div>
+                                                </SwiperSlide>
+                                              );
+                                            })}
+                                          </Swiper>
                                         </div>
                                     </div>
                                   </div>
@@ -77,6 +127,7 @@ const Projects = () => {
         </>
     );
 };
+
 
 
 export default Projects;

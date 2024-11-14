@@ -44,6 +44,7 @@
     align-items: center;
     margin-right: 5rem;
     margin-top: 2.3rem;
+    width: 53%;
 }
 
 .name_w_text h1 {
@@ -123,6 +124,10 @@
 }
 
 .images_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     margin-top: 3rem;
 }
@@ -137,11 +142,69 @@
     border-bottom-right-radius: 10px;
     /* margin-top: 2rem; */
     height: 4rem;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+    width: 100%;
 }
 
 .arrow_div:hover {
     cursor: pointer;
     background-color: #ededed;
+}
+
+.arrow_div img {
+    transition: transform 0.15s ease-in-out;
+}
+
+.swiper_div{
+    display: none;
+    flex-direction: column;
+    width: 56rem;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+}
+.slideShow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 22rem;
+    border-radius: 7px;
+    overflow: hidden;
+    position: relative;
+    z-index: 5;
+    border: 1px solid #ccc;
+}
+
+.slideShow:hover {
+    cursor: pointer;
+}
+
+.slide {
+    width: auto;
+    height: 100%;
+}
+
+.swiper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.swiperSlide{
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }
 
 

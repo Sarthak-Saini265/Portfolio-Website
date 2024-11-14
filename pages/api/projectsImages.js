@@ -2,7 +2,7 @@ import *  as fs from "fs"
 import path from "path"
 export default async function handler(req, res) {
   try{
-    const filePath = path.join(process.cwd(),"JSONs","Projects_page","projects.json")
+    const filePath = path.join(process.cwd(),"JSONs","Projects_page","images.json")
     const data = await fs.promises.readFile(filePath,"utf-8")
     res.status(200).json(JSON.parse(data))
   }
