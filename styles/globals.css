@@ -2,6 +2,7 @@
   --background: #ffffff;
   --foreground: #171717;
   --pinkish-red: #e21246;
+  --desc-color: rgb(85, 85, 85);
 }
 
 /* @media (prefers-color-scheme: dark) {
@@ -28,6 +29,17 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+.swiper-button-prev, .swiper-button-next {
+  color: #ec3d4c !important;
+}
+.swiper-pagination-bullet {
+  background-color: var(--desc-color)!important;
+  opacity: 1!important;
+}
+.swiper-pagination-bullet-active {
+  background-color: #FF5C82 !important;
 }
 
 /* a {

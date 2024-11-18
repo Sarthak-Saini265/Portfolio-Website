@@ -37,6 +37,10 @@
     margin-top: 5rem;
 }
 
+.project_divs > *:not(:first-child) {
+    margin-top: 3rem;
+}
+
 .name_w_text {
     display: flex;
     flex-direction: column;
@@ -166,6 +170,7 @@
     padding: 1rem 2rem;
     margin-bottom: 3rem;
     margin-top: 1rem;
+    transition: display 0.3s ease-in-out;
 }
 .slideShow {
     display: flex;
@@ -207,6 +212,14 @@
     height: 100%;
 }
 
+.swiper_div, .swiper, .swiperSlide, .slideShow {
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+}
+
+.project_divs > :nth-child(2) .slideShow {
+    height: 34rem;
+}
 
 
 

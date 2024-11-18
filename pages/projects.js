@@ -13,7 +13,6 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 const Projects = () => {
 
     const [projects, setProjects] = useState([]);
-    const [images, setImages] = useState([]);
 
     useEffect(() => {
         fetch("/api/projectsMain")
@@ -25,17 +24,10 @@ const Projects = () => {
           });
       }, []);
 
-    useEffect(() => {
-      fetch("/api/projectsImages").then((a) => {
-        return a.json()
-      }).then((res) => {
-        setImages(res)
-      })
-    }, [])
 
       const arrowTransform = (e) => {
         const arrowImg = e.currentTarget.querySelector("img")
-        const swiper_div = document.querySelector(`.${styler.swiper_div}`);
+        const swiper_div = e.currentTarget.parentElement.querySelector(`.${styler.swiper_div}`);
         const currentRotation = arrowImg.style.transform === "rotate(180deg)" ? "rotate(0deg)" : "rotate(180deg)";
         arrowImg.style.transform = currentRotation;
         swiper_div.style.display === "flex" ? swiper_div.style.display = "none" : swiper_div.style.display = "flex";
@@ -95,23 +87,23 @@ const Projects = () => {
                                             slidesPerView={1}
                                             navigation
                                             pagination={{ clickable: true }}
-                                            autoplay={{ delay: 5000, disableOnInteraction: false }}
+                                            autoplay={{ delay: 4000, disableOnInteraction: false }}
                                             loop={true}
                                             effect="fade"
                                             className={styler.swiper}
                                           >
-                                            {images.map((image, index) => {
+                                            {project.images.map((image, ind) => {
                                               return (
-                                                <SwiperSlide key={index} className={styler.swiperSlide}>
-                                                  <div className={styler.slideShow}>
-                                                    <Image
-                                                      src={image}
-                                                      className={styler.slide}
-                                                      width={1920}
-                                                      height={1080}
-                                                    />
-                                                  </div>
-                                                </SwiperSlide>
+                                                <SwiperSlide key={ind} className={styler.swiperSlide}>
+                                                <div className={styler.slideShow}>
+                                                  <Image
+                                                    src={image}
+                                                    className={styler.slide}
+                                                    width={1920}
+                                                    height={1080}
+                                                  />
+                                                </div>
+                                              </SwiperSlide>
                                               );
                                             })}
                                           </Swiper>

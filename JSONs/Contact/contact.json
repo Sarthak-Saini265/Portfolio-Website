@@ -2,16 +2,19 @@
     {
         "name":"Phone No.",
         "text":8510053046,
+        "href":"tel:918510053046",
         "img":"/Contact/Main/phone.png"
     },
     {
         "name":"Email",
         "text":"saini.sarthak0505@gmail.com",
+        "href":"mailto:saini.sarthak0505@gmail.com",
         "img":"/Contact/Main/email.png"
     },
     {
         "name":"Location",
-        "text":"New Delhi, India",
+        "text":"Rohini, New Delhi, India",
+        "href":"https://maps.app.goo.gl/en14ga4s6kRHs4nv5",
         "img":"/Contact/Main/location.png"
     }
 ]

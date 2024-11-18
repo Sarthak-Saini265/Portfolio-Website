@@ -4,6 +4,26 @@
         "img":"/Projects_page/website.svg",
         "text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio alias sequi perspiciatis nihil! Nesciunt, iure neque! Eveniet suscipit cumque quos eligendi molestiae eaque possimus quo expedita deleniti quidem? Quisquam quidem itaque totam possimus officia deleniti consequuntur tempore nobis consectetur! Odio, labore repellendus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi voluptas perspiciatis facilis veritatis vel eum.",
         "linkedin":"https://www.linkedin.com/posts/sarthak-saini-54945a252_project-webdevelopment-fullstackdeveloper-activity-7250880149145993216-YO2h?utm_source=share&utm_medium=member_desktop",
-        "github":"https://github.com/Sarthak-Saini265/Influencer-Sponsorship-Platform"
+        "github":"https://github.com/Sarthak-Saini265/Influencer-Sponsorship-Platform",
+        "images":[
+            "/Projects_page/Sparked/landing_page.png",
+            "/Projects_page/Sparked/landing_page_extended.png",
+            "/Projects_page/Sparked/login_page.png",
+            "/Projects_page/Sparked/niche_page.png",
+            "/Projects_page/Sparked/inf_page.png",
+            "/Projects_page/Sparked/sponsor_page.png"
+        ]
+    },
+    {
+        "name":"SoundSphere: Music Streaming App",
+        "img":"/Projects_page/mobile_app.svg",
+        "text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio alias sequi perspiciatis nihil! Nesciunt, iure neque! Eveniet suscipit cumque quos eligendi molestiae eaque possimus quo expedita deleniti quidem? Quisquam quidem itaque totam possimus officia deleniti consequuntur tempore nobis consectetur! Odio, labore repellendus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi voluptas perspiciatis facilis veritatis vel eum.",
+        "linkedin":"#",
+        "github":"https://github.com/Sarthak-Saini265/SoundSphere-Mobile-App",
+        "images":[
+            "/Projects_page/Soundsphere/main_page_w_frame.png",
+            "/Projects_page/Soundsphere/song_page_1_w_frame.png",
+            "/Projects_page/Soundsphere/song_page_2_w_frame.png"
+        ]
     }
 ]

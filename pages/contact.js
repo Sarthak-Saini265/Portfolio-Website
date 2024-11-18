@@ -33,7 +33,7 @@ const Contact = () => {
                                     <Image width={500} height={500} src={contact.img} className={styler.gen_ico} />
                                 </div>
                                 <h3 className={styler.contacts_text}>{contact.name}.</h3>
-                                <Link href="tel:919891040799" className={styler.contacts_details_text}>{contact.text}</Link>
+                                <Link href={contact.href} className={styler.contacts_details_text}>{contact.text}</Link>
                             </div>
                         );
                     })}
