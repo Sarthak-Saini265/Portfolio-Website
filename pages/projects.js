@@ -45,7 +45,7 @@ const Projects = () => {
                             return (
                                 <div
                                   style={ind % 2 != 0 ? { flexDirection: "row-reverse" } : {}}
-                                  className={styler.project_div}
+                                  className={styler.project_div} key={ind}
                                 >
                                   <div>
                                     <Image src={project.img} width={420} height={420} />
@@ -92,9 +92,9 @@ const Projects = () => {
                                             effect="fade"
                                             className={styler.swiper}
                                           >
-                                            {project.images.map((image, ind) => {
+                                            {project.images.map((image, indi) => {
                                               return (
-                                                <SwiperSlide key={ind} className={styler.swiperSlide}>
+                                                <SwiperSlide key={indi} className={styler.swiperSlide}>
                                                 <div className={styler.slideShow}>
                                                   <Image
                                                     src={image}

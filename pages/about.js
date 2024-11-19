@@ -63,7 +63,7 @@ const About = () => {
                 <div
                   className={`${styler.ed_div} ${
                     edu.extra ? styler.ed_long_div : ""
-                  }`}
+                  }`} key={ind}
                 >
                   <div className={styler.logo_w_txt}>
                     <div className={styler.logo_div}>
@@ -89,7 +89,7 @@ const About = () => {
           <div className={styler.skill_divs}>
             {skills.map((skill, ind) => {
               return (
-                <div className={styler.skill_div}>
+                <div className={styler.skill_div} key={ind}>
                   <div
                     style={skill.color ? { backgroundColor: skill.color } : {}}
                     className={styler.skill_head}
@@ -97,9 +97,9 @@ const About = () => {
                     {skill.category}
                   </div>
                   <ul>
-                    {skill.skills.map((skill_inner, ind) => {
+                    {skill.skills.map((skill_inner, indi) => {
                       return (
-                        <li>
+                        <li key={indi}>
                           <div
                             style={
                               skill.color
@@ -140,7 +140,7 @@ const About = () => {
           <div className={styler.extra_divs}>
             {extras.map((extra, ind) => {
               return (
-                <div className={`${styler.extra_div} ${styler.skill_div}`}>
+                <div className={`${styler.extra_div} ${styler.skill_div}`} key={ind}>
                   <div
                     style={extra.color ? { backgroundColor: extra.color } : {}}
                     className={styler.skill_head}
@@ -148,9 +148,9 @@ const About = () => {
                     {extra.category}
                   </div>
                   <ul>
-                    {extra.items.map((extra_inner, ind) => {
+                    {extra.items.map((extra_inner, indi) => {
                       return (
-                        <li title={extra_inner.title}>
+                        <li title={extra_inner.title} key={indi}>
                           <div className={styler.ico_div} style={extra.color ? { backgroundColor: extra.color } : {}}>
                             <Image
                               src={extra_inner.img}

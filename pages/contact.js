@@ -28,7 +28,7 @@ const Contact = () => {
                 <div className={styler.main_contacts}>
                     {contacts.map((contact, ind) => {
                         return (
-                            <div className={styler.contacts_div}>
+                            <div className={styler.contacts_div} key={ind}>
                                 <div className={styler.icon_holder}>
                                     <Image width={500} height={500} src={contact.img} className={styler.gen_ico} />
                                 </div>
