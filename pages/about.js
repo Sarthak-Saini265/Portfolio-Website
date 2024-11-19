@@ -67,7 +67,7 @@ const About = () => {
                 >
                   <div className={styler.logo_w_txt}>
                     <div className={styler.logo_div}>
-                      <Image width={500} height={500} src={edu.img} />
+                      <Image width={500} height={500} alt="" src={edu.img} />
                     </div>
                     <h3>{edu.name}</h3>
                     {edu.extra ? <h3>{edu.extra}</h3> : null}
@@ -112,6 +112,7 @@ const About = () => {
                               src={skill_inner.img}
                               width={500}
                               height={500}
+                              alt=""
                               style={
                                 skill_inner.name == "Vue JS"
                                   ? {
@@ -155,7 +156,7 @@ const About = () => {
                             <Image
                               src={extra_inner.img}
                               width={500}
-                              height={500}/>
+                              height={500} alt=""/>
                           </div>
                           <p>{extra_inner.name}</p>
                         </li>

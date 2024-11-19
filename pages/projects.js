@@ -48,7 +48,7 @@ const Projects = () => {
                                   className={styler.project_div} key={ind}
                                 >
                                   <div>
-                                    <Image src={project.img} width={420} height={420} />
+                                    <Image src={project.img} width={420} height={420} alt="" />
                                   </div>
                                   <div
                                     style={
@@ -62,7 +62,7 @@ const Projects = () => {
                                         <Link href={project.linkedin} target="_blank">
                                             <button className={styler.button} id={styler.linkedin}>
                                                 <div className={styler.social}>
-                                                    <Image width={500} height={500} src="/Projects_page/linkedin_white.png" />
+                                                    <Image width={500} height={500} alt="" src="/Projects_page/linkedin_white.png" />
                                                 </div>
                                                 <p>View on LinkedIn</p>
                                             </button>
@@ -70,7 +70,7 @@ const Projects = () => {
                                         <Link href={project.github} target="_blank">
                                         <button className={styler.button}>
                                                 <div className={styler.social}>
-                                                    <Image width={500} height={500} src="/Projects_page/github_white.png" />
+                                                    <Image width={500} height={500} alt="" src="/Projects_page/github_white.png" />
                                                 </div>
                                                 <p>View on Github</p>
                                             </button>
@@ -78,7 +78,7 @@ const Projects = () => {
                                     </div>
                                     <div className={styler.images_div}>
                                         <div className={styler.arrow_div} onClick={arrowTransform}>
-                                            <Image width={40} height={40} src="/Projects_page/down_arrow.svg" />
+                                            <Image width={40} height={40} alt="" src="/Projects_page/down_arrow.svg" />
                                         </div>
                                         <div className={styler.swiper_div}>
                                           <Swiper
@@ -101,6 +101,7 @@ const Projects = () => {
                                                     className={styler.slide}
                                                     width={1920}
                                                     height={1080}
+                                                    alt=""
                                                   />
                                                 </div>
                                               </SwiperSlide>
