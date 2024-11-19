@@ -23,7 +23,7 @@ const Contact = () => {
             <div className={styler.wrapper}>
                 <div className={styler.heading}>
                     <h1>Contact</h1>
-                    <p>Thanks for visiting! Whether you have a project idea, a question, or just want to connect, I'd love to hear from you. You can reach me directly via email or phone, and I'm also active on the social platforms linked below. Let's connect and start a conversation!</p>
+                    <p>Thanks for visiting! Whether you have a project idea, a question, or just want to connect, I&apos;d love to hear from you. You can reach me directly via email or phone, and I&apos;m also active on the social platforms linked below. Let&apos;s connect and start a conversation!</p>
                 </div>
                 <div className={styler.main_contacts}>
                     {contacts.map((contact, ind) => {

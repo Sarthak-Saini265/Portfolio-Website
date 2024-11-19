@@ -25,12 +25,12 @@ export default function Home() {
             <div className={styler.text_div}>
               <h1>— HELLO</h1>
               <div className={styler.name_colored}>
-                <h1>I'm</h1>
+                <h1>I&apos;m</h1>
                 <h1 className={styler.colored}>Sarthak</h1>
                 <h1>Saini</h1>
               </div>
               <p>
-                Greetings! I'm a student passionate about Data Science and Web
+                Greetings! I&apos;m a student passionate about Data Science and Web
                 Development, currently pursuing a BS in Data Science at IIT Madras and
                 B.Sc. in Computer Science (Hons.) at Delhi University.
               </p>  
