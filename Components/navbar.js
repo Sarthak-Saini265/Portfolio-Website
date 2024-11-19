@@ -1,8 +1,6 @@
 import React from "react";
-import Image from "next/image";
 import styler from "../styles/Navbar.module.css";
 import Link from "next/link";
-import { useState } from "react";
 
 const Navbar = () => {
   return (

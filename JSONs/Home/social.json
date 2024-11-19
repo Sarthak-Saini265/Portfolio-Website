@@ -1,0 +1,22 @@
+[
+    {
+        "name":"Instagram",
+        "href":"https://www.instagram.com/sarthak_saini_0505/",
+        "img":"/Home/insta.svg"
+    },
+    {
+        "name":"LinkedIn",
+        "href":"https://www.linkedin.com/in/sarthak-saini-54945a252/",
+        "img":"/Home/linkedin.svg"
+    },
+    {
+        "name":"Twitter",
+        "href":"https://twitter.com/SarthakSaini0505",
+        "img":"/Home/twitter.svg"
+    },
+    {
+        "name":"GitHub",
+        "href":"https://github.com/Sarthak-Saini265",
+        "img":"/Home/github.svg"
+    }
+]
