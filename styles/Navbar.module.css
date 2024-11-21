@@ -4,10 +4,9 @@
 
 .navbar_head {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 2.5rem;
     align-items: center;
-    width: 63.5%;
 }
 
 .logo_div {
