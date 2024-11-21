@@ -6,7 +6,7 @@ import Image from "next/image";
 const Navbar = () => {
   return (
     <header className={styler.navbar_head}>
-      <div className={styler.logo_div}>
+      <div className={styler.logo_div} onClick={() => {window.location.href = "/"}}>
         <Image src="/logo_no_bg.png" alt="" width={500} height={500}/>
       </div>
       <div className={styler.navbar}>

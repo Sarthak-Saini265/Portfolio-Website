@@ -14,7 +14,7 @@
     align-items: center;
     justify-content: center;
     width: 3.3rem;
-    border-radius: 100%;
+    /* border-radius: 100%; */
     margin-left: 2.5rem;
     margin-bottom: 0.4rem;
 }
@@ -22,7 +22,12 @@
 .logo_div img {
     width: 100%;
     height: auto;
-    border-radius: 100%;
+    /* border-radius: 100%; */
+}
+
+.logo_div :hover {
+    cursor: pointer;
+    filter: brightness(0) saturate(100%) invert(21%) sepia(90%) saturate(6450%) hue-rotate(-10deg) brightness(100%) contrast(100%);
 }
 
 .nav_list {
