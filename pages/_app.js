@@ -10,6 +10,7 @@ export default function App({ Component, pageProps }) {
     <Head>
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+      <link rel="icon" href="/logo_circle.png" />
       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
       {/* <link rel="icon" href="/Saransh_Saini_Logo_Rounded.png" /> */}
       <title>Sarthak Saini | Full Stack Developer & Data Science Student</title>

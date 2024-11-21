@@ -46,7 +46,7 @@ export default function Home() {
               {social.map((social, ind) => {
                 return (
                   <Link href={social.href} key={ind}>
-                    <Image src={social.img} width={27} height={27} alt={social.name} className={styler.social_icon}/>
+                    <Image src={social.img} width={24} height={24} alt={social.name} className={styler.social_icon}/>
                   </Link>
                 );
               })}

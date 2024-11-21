@@ -4,8 +4,26 @@
 
 .navbar_head {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 2.5rem;
+    align-items: center;
+    width: 63.5%;
+}
+
+.logo_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3.3rem;
+    border-radius: 100%;
+    margin-left: 2.5rem;
+    margin-bottom: 0.4rem;
+}
+
+.logo_div img {
+    width: 100%;
+    height: auto;
+    border-radius: 100%;
 }
 
 .nav_list {
