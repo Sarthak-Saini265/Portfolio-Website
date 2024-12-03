@@ -47,7 +47,7 @@ const Projects = () => {
                                   style={ind % 2 != 0 ? { flexDirection: "row-reverse" } : {}}
                                   className={styler.project_div} key={ind}
                                 >
-                                  <div>
+                                  <div className={styler.img_div}>
                                     <Image src={project.img} width={420} height={420} alt="" />
                                   </div>
                                   <div

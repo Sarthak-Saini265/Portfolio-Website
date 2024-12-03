@@ -5,6 +5,10 @@
     height: 100vh;
 }
 
+.wrapper > :last-child {
+    margin-bottom: 5rem;
+}
+
 .contact_sect {
     display: flex;
     flex-direction: column;
@@ -31,6 +35,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     margin-top: 2.5rem;
     margin-bottom: 5rem;
 }
@@ -103,6 +108,15 @@
     -webkit-user-select: none;
 }
 
+
+@media(max-width: 850px) {
+    .heading {
+        width: 70% !important;
+    }
+    .wrapper {
+        height: max-content !important;
+    }
+}
 
 
 
