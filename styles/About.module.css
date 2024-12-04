@@ -8,14 +8,14 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     margin-top: 6rem;
     width: 70%;
-    margin-left: 9rem;
 }
 
 .section_head {
     height: 3.45rem;
+    width: 89%;
 }
 
 .ed_divs,
@@ -278,6 +278,10 @@
     .sect_general {
         margin-left: 0 !important;
         width: 95% !important;
+    }
+
+    .section_head {
+        width: 99% !important;
     }
 
     .ed_divs {

@@ -17,6 +17,10 @@
     height: 3.45rem;
 }
 
+.section_head h1 {
+    font-size: 1.55em;
+}
+
 
 .project_divs {
     display: flex;
