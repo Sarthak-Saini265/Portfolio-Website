@@ -10,6 +10,7 @@
     justify-content: center;
     align-items: flex-start;
     margin-top: 6rem;
+    width: 70%;
 }
 
 .section_head {
@@ -17,7 +18,8 @@
 }
 
 .ed_divs,
-.skill_divs, .extra_divs {
+.skill_divs,
+.extra_divs {
     border-top: 2px solid black;
     width: 75rem;
 }
@@ -44,7 +46,7 @@
     height: 13.1rem;
   } */
 
-.ed_divs > :nth-child(3) .logo_div {
+.ed_divs> :nth-child(3) .logo_div {
     width: 10.55rem;
 }
 
@@ -262,6 +264,74 @@
     filter: none;
 }
 
+@media(max-width: 1300px) {
+    .logo_w_txt {
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .logo_w_txt>h3:nth-of-type(1) {
+        line-height: 2.5rem !important;
+    }
+
+    .sect_general {
+        width: 95% !important;
+    }
+
+    .ed_divs {
+        margin: auto;
+        width: 100% !important;
+    }
+
+    .ed_div {
+        align-items: center;
+        flex-direction: column !important;
+        width: 93% !important;
+        height: max-content !important;
+    }
+
+    .info_div {
+        text-align: center;
+        margin-left: 0;
+        margin-top: 2rem !important;
+        width: 100% !important;
+    }
+
+    .info_div p {
+        margin-left: 0;
+    }
+
+    .skill_divs {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    /* .skill_divs > :first-child, .extra_divs > :first-child {
+        margin-right: 3rem !important;
+    } */
+
+    .extra_divs {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .extra_div {
+        margin-right: 0;
+    }
+}
+
+/* @media(max-width: 850px) {
+    .skill_divs > :first-child, .extra_divs > :first-child {
+        margin-right: 0 !important;
+    }
+} */
+
+@media(max-width: 360px) {
+    .skill_div {
+        width: 21rem !important;
+    }
+}
+
 
 
 
@@ -285,7 +355,7 @@
     justify-content: center;
     align-items: center;
     /* margin-right: 5rem; */
-    /* margin-top: 2.3rem;
+/* margin-top: 2.3rem;
 } */
 
 /* .name_w_text h1 {
