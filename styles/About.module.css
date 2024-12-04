@@ -11,6 +11,7 @@
     align-items: flex-start;
     margin-top: 6rem;
     width: 70%;
+    margin-left: 9rem;
 }
 
 .section_head {
@@ -275,6 +276,7 @@
     }
 
     .sect_general {
+        margin-left: 0 !important;
         width: 95% !important;
     }
 
